@@ -216,7 +216,8 @@ void zdanie15() { //Sprawdź, czy liczba należy do przedziału (-5, 5)
 }
 
 void zdanie16() { //Sprawdź, czy liczba należy do przedziału (-niesk, 5) suma < 10; +niesk)
-
+	/*
+	
 	//Nie wiem dlaczego to nie działa
 
 	int l = 0;
@@ -226,6 +227,24 @@ void zdanie16() { //Sprawdź, czy liczba należy do przedziału (-niesk, 5) suma
 
 	if (l > 5 && l < 10) {
 		cout << "liczba nie należy do przedziału (-niesk, 5) suma (10; +niesk)" << endl << endl;
+	}
+	else {
+		cout << "liczba należy do przedziału (-niesk, 5) suma (10; +niesk)" << endl << endl;
+	}
+	*/
+
+	int l = 0;
+
+	cout << "prosze podać liczbę: ";
+	cin >> l;
+
+	if (l > 5) {
+		if (l < 10) {
+			cout << "liczba nie należy do przedziału (-niesk, 5) suma (10; +niesk)" << endl << endl;
+		}
+		else {
+			cout << "liczba należy do przedziału (-niesk, 5) suma (10; +niesk)" << endl << endl;
+		}
 	}
 	else {
 		cout << "liczba należy do przedziału (-niesk, 5) suma (10; +niesk)" << endl << endl;
